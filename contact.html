@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html>
+  
+  <style>
+    body {
+      background-image: url('https://4kwallpapers.com/images/wallpapers/mountains-winter-daytime-glacier-blue-mountain-range-5k-2560x1440-1248.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+    }
+</style>    
+<ul class="nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+<style>
+  ul.nav {
+  margin:0;
+  padding: 5px;;
+  list-style:none;
+  height:36px; line-height:36px;
+  background:#272727;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px
+}
+ul.nav li {
+  border-right:1px solid #000000; 
+  float:left;
+}
+ul.nav a {
+  display:block;
+  padding:0 28px;
+  color:#ffffff;
+  text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+  background:#4b4b4b;
+}
+    
+  </style>
+  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  text-align: center; ">Contact</h1>
+       
+  <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  text-align: center;">
+  
+  </h3>
   <head>
     
- <a href="tel:07123456789"> Phone </a> 
+ <a href="tel:07123456789" style="text-align: center;"> Phone </a> 
+
  <br> 
- <a href="mailto:b582994@leedscitycollege.ac.uk"> Email </a>
+ <a href="mailto:b582994@leedscitycollege.ac.uk" style="text-align: center;"> Email </a>
   </head>
   <body>
     
   </body>
+  <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  text-align: center; ">Here is a table I made using html:</p>
+  <table style="margin: auto;" border="5 | 1"> 
+    <caption>Table</caption>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </table>
+ <br>
+  <!-- form -->
+  <form  action="./formSuccess.html" style="margin: auto; width: 220px;">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" value="" required maxlength="10" size="25px"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" value="" required size="25px"> <br>
+    
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" name="pass" value="" required size="25px"><br>
+    
+    <label for="confirmpass">Confirm Password:</label><br>
+    <input type="password" id="confirmpass" name="confirmpass" value="" required size="25px"><br>
+    <br>
+    <div>
+    <input type="submit" style='display:flex; justify-content:center;' value="Submit">
+    </div>
+
+
+    
+  <br>
 </html>
